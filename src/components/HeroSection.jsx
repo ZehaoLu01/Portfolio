@@ -31,7 +31,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Zehao",
+                "Zehao Lu",
                 1000,
                 "C++ Developer",
                 1000,
@@ -46,8 +46,7 @@ const HeroSection = () => {
             />
           </h2>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            El Psy Congroo!
           </p>
           <div>
             <Link
