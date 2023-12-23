@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  dreambig,
+  bbi,
+  cpp,
+  unreal,
+  unity,
+  opengl,
 } from "../assets";
 
 export const navLinks = [
@@ -61,12 +67,24 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Unreal",
+    icon: unreal,
+  },
+  {
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "OpenGL",
+    icon: opengl,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
     name: "JavaScript",
@@ -85,10 +103,6 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -104,67 +118,31 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Co-op Software developer",
+    company_name: "Dream big Semiconductor",
+    icon: dreambig,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2024 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing computer architecture simulator using C++ for testing the bottleneck of chipsets",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Co-op Game Developer",
+    company_name: "Blackbird Interactive",
+    icon: bbi,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2022 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in the development of Minecraft PE",
+      "Developed a multi-touch solution for two new touch control schemes and resolved mobile touch control bugs for the Minecraft Mobile Access Team.",
+      "Worked with Minecraft Realms Client and Services Team to resolve Realms-related UI/Network bugs and implement new realms stories features using React and C++.",
+      "Participated in the development of Minecraft PE. - Developed a multi-touch solution for two new touch control schemes and resolved mobile touch control bugs for the Minecraft Mobile Access Team.",
+      "Worked with Minecraft Realms Client and Services Team to resolve Realms-related UI/Network bugs and implement new realms stories features using React and C++.",
     ],
   },
 ];
@@ -198,20 +176,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Toy Renderer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A 3D renderer with Gui",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenGL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "OpenGL",
         color: "pink-text-gradient",
       },
     ],
@@ -219,41 +197,37 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Blaster",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A 3D Online Multiplayer shooter game",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Unreal 5",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "One Memory Helper",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that remind users to review Onenote pages regularly",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],

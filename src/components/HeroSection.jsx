@@ -22,9 +22,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="grow place-self-center text-center sm:text-left justify-self-start"
         >
-          <h2 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h3 className=" text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-blue-600">
               Hello, I&apos;m{" "}
             </span>
@@ -33,43 +33,40 @@ const HeroSection = () => {
               sequence={[
                 "Zehao Lu",
                 1000,
-                "C++ Developer",
+                "a C++ Developer",
                 1000,
-                "Game Developer",
+                "a Game Developer",
                 1000,
-                "Student From UBC",
+                "a Student From UBC",
                 1000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
-          </h2>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            El Psy Congroo!
-          </p>
+          </h3>
           <div>
-            <Link
-              to="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+            <a href="/#contact">
+            <button
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 to-blue-500 hover:bg-slate-200 text-white"
             >
               Hire Me
-            </Link>
-            <Link
-              to="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            </button>
+            </a>
+            <a href="/">
+            <button
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 to-blue-500 hover:bg-slate-200 text-white"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
+              Download CV
+            </button>
+            </a>
           </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className=" col-end-12 place-self-center mt-4 lg:mt-0"
         >
           <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[320px] lg:h-[320px] relative overflow-hidden">
             {/* <Image
