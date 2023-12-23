@@ -189,7 +189,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "OpenGL",
+        name: "ImGui",
         color: "pink-text-gradient",
       },
     ],
