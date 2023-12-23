@@ -128,7 +128,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2024 - Sep 2024",
     points: [
-      "Developing computer architecture simulator using C++ for testing the bottleneck of chipsets",
+      "Developing computer architecture simulator using C++ for testing the bottleneck of chiplet",
     ],
   },
   {
