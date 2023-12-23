@@ -1,21 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {
-  createHashRouter,
-  RouterProvider
-} from 'react-router-dom';
-import App from './App';
-import './styles/index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const router = createHashRouter([
-  {
-    path: "/*",
-    element: <App />,
-  }
-]);
+import App from "./App";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
